@@ -1,0 +1,11 @@
+flask
+Pillow
+numpy
+opencv-python
+ultralytics
+gunicorn
+gevent
+gevent-websocket
+flask_sockets
+websockets
+imageio[ffmpeg]

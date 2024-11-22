@@ -1,0 +1,10 @@
+WSS server running on port 5443
+Traceback (most recent call last):
+  File "/home/gmarrec/srv/python/py_server/app/ws_server.py", line 48, in <module>
+    loop.run_until_complete(start_websocket_server())
+  File "/usr/local/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/gmarrec/srv/python/py_server/app/ws_server.py", line 39, in start_websocket_server
+    ssl_context.load_cert_chain(certfile='./ssl/fullchain.pem', keyfile='./ssl/privkey.pem')
+FileNotFoundError: [Errno 2] No such file or directory
